@@ -1,4 +1,6 @@
 # Deployment with Terraform
+![aws_terraform drawio](https://github.com/taqiyeddinedj/deploy-with-terraform/assets/112349513/2ea11de9-a23c-462f-bf2f-e09b856a892a)
+
 Two-Tier Web App Deployment with Terraform
 This repository contains the code to deploy a two-tier web application on AWS using Terraform. The infrastructure consists of a load balancer, two web server instances, and associated networking resources, all provisioned as code.
 # NOTE 
