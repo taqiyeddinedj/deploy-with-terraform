@@ -23,8 +23,11 @@ Run terraform apply to create the infrastructure on AWS.
 Access the web application using the public DNS name of the ELB provided in the output.
 # File Structure
 main.tf: Contains the Terraform configuration for creating the infrastructure.
+
 terraform.tfvars: Sets the values for the input variables.
+
 nginx-install.sh: User data script to install and configure Nginx on EC2 instances.
+
 README.md: Provides an overview and instructions for using the repository.
 # Outputs
 The public DNS name of the Elastic Load Balancer (ELB) is provided as an output to access the web application.
