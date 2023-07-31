@@ -33,6 +33,9 @@ nginx-install.sh: User data script to install and configure Nginx on EC2 instanc
 README.md: Provides an overview and instructions for using the repository.
 # Outputs
 The public DNS name of the Elastic Load Balancer (ELB) is provided as an output to access the web application.
+![image](https://github.com/taqiyeddinedj/deploy-with-terraform/assets/112349513/de867084-64c4-47e7-8932-fb774fd162b7)
+![image](https://github.com/taqiyeddinedj/deploy-with-terraform/assets/112349513/33da4e69-2651-466e-8315-34c93a7e66a7)
+
 Notes
 This deployment is suitable for testing and educational purposes; it may require further configuration for production use.
 Remember to destroy the resources after use to avoid unnecessary AWS charges: terraform destroy.
